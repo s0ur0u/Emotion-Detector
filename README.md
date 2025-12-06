@@ -51,3 +51,12 @@ CCT-optimized structure:
  -Global average pooling
  -Softmax classifier
 CCT models are efficient and well-suited for small images like 48×48 FER2013.
+
+📌 Notes
+- FER2013 is a challenging dataset and common models often overfit to "Sad" or "Neutral" without balancing or augmentation.
+- Real-time performance varies depending on lighting and camera quality.
+- Future improvements include:
+    -> Better augmentation strategies
+    -> Larger/more robust transformer models
+    -> Face alignment
+    -> EMA or label smoothing
